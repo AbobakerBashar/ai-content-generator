@@ -38,7 +38,7 @@ A modern AI-powered content generation web application built with **Next.js**, p
 * Next.js 
 * React
 * Tailwind CSS
-* OpenAI / Groq API
+* Gemini API
 * Supabase / Prisma (optional)
 * Node.js
 

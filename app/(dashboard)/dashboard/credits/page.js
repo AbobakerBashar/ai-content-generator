@@ -8,6 +8,8 @@ import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { TrendingDown, Zap } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
 	title: "Credits & Plans - AI Content Generator",
 	description:

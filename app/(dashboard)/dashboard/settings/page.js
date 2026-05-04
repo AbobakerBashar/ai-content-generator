@@ -14,7 +14,7 @@ export const metadata = {
 	description: "Manage your account preferences and settings",
 };
 
-export const revalidate = 0;
+export const dynamic = "force-dynamic";
 
 const fetchSettings = async () => {
 	try {

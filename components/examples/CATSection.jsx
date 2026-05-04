@@ -1,18 +1,12 @@
-import { getCurrentUser } from "@/actions/users";
+"use client";
+import { useCurrentUser } from "@/hooks/users";
 import Link from "next/link";
 
-const fetchUser = async () => {
-	try {
-		const user = await getCurrentUser();
-		return user;
-	} catch (error) {
-		throw new Error("Failed to fetch user data");
-	}
-};
-
 const CATSection = async () => {
-	const user = await fetchUser();
+	const { user, isLoading } = useCurrentUser();
 	const isAuthenticated = !!user;
+
+	if (isLoading) return null;
 
 	return (
 		<section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">

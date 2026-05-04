@@ -12,7 +12,6 @@ export async function GET(request) {
 	const errorDescription = requestUrl.searchParams.get("error_description");
 
 	if (errorParam || errorDescription) {
-		console.error("Supabase Auth Error:", errorDescription || errorParam);
 		return NextResponse.redirect(
 			`${requestUrl.origin}/auth/sign-in?error=${encodeURIComponent(errorDescription || errorParam)}`,
 		);

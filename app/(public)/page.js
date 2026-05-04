@@ -6,6 +6,8 @@ import Hero from "@/components/home/Hero";
 import Pricing from "@/components/home/Pricing";
 import Testimonials from "@/components/home/Testimonials";
 
+export const revalidate = 0;
+
 export const metadata = {
 	title: "AI Credit Management - Home",
 	description:

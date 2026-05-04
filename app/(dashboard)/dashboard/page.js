@@ -20,6 +20,8 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 
+export const revalidate = 0;
+
 export const metadata = {
 	title: "Dashboard - AI Content Generator",
 	description:

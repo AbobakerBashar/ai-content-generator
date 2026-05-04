@@ -7,6 +7,7 @@ import SingleHeader from "@/components/examples/SingleHeader";
 import Testimonail from "@/components/examples/Testimonail";
 import { supabase } from "@/utils/supabase/server";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 export async function generateStaticParams() {
 	const { data: examples, error } = await supabase
@@ -57,7 +58,9 @@ export default async function ExampleDetailPage({ params }) {
 			<RelatedExamples exampleId={id} />
 
 			{/* CTA Section */}
-			<SingleCATSection />
+			<Suspense>
+				<SingleCATSection />
+			</Suspense>
 		</div>
 	);
 }

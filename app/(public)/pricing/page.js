@@ -1,8 +1,8 @@
 import { getPlans } from "@/actions/plans";
 import { getUser } from "@/actions/users";
 import Pricing from "@/components/home/Pricing";
-import ComparisonTable from "@/components/pricing/ComparisonTable";
-import FAQSection from "@/components/pricing/FAQSection";
+
+export const revalidate = 0;
 
 export const metadata = {
 	title: "Pricing - AI Content Generator",

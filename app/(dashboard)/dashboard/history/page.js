@@ -2,6 +2,8 @@ import { getRecentGenerations } from "@/actions/generate";
 import Filters from "@/components/dashboard/history/Filters";
 import HistoryList from "@/components/dashboard/history/HistoryList";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
 	title: "Generation History",
 	description: "View and manage your past generated content",

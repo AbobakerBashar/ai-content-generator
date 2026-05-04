@@ -1,11 +1,10 @@
-import ExamplesHeader from "@/components/examples/ExamplesHeader";
+import { getExamples } from "@/actions/examples";
+import CATSection from "@/components/examples/CATSection";
 import Examples from "@/components/examples/Examples";
-import { ArrowRight } from "lucide-react";
-import Link from "next/link";
+import ExamplesHeader from "@/components/examples/ExamplesHeader";
 import ShowCaseSection from "@/components/examples/ShowCaseSection";
 import StatisticsSection from "@/components/examples/StatisticsSection";
-import CATSection from "@/components/examples/CATSection";
-import { getExamples } from "@/actions/examples";
+import { Suspense } from "react";
 
 export const metadata = {
 	title: "Examples",

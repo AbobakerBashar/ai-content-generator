@@ -1,7 +1,7 @@
 import { createClient } from "@/utils/supabase/server";
 
 export const getExamples = async () => {
-	const supabase = await createClient();
+	const supabase = await createClient(false);
 	const { data: examples, error } = await supabase
 		.from("examples")
 		.select("id, title, type, description, samples")
@@ -15,7 +15,7 @@ export const getExamples = async () => {
 };
 
 export const getExampleById = async (id) => {
-	const supabase = await createClient();
+	const supabase = await createClient(false);
 	const { data: example, error } = await supabase
 		.from("examples")
 		.select(

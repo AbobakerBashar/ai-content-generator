@@ -1,0 +1,14 @@
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="icon-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" /> <stop offset="100%" stop-color="#8b5cf6" /> </linearGradient>
+  </defs>
+  
+  <g transform="translate(5, 5)">
+    <polygon points="20,0 40,10 40,30 20,40 0,30 0,10" fill="none" stroke="url(#icon-grad-light)" stroke-width="3" />
+    <path d="M22,8 L12,24 L20,24 L18,36 L28,20 L20,20 Z" fill="url(#icon-grad-light)" />
+  </g>
+  
+  <text x="55" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="900" fill="#18181b">SPARK</text>
+  <text x="140" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="900" fill="#7c3aed">GEN</text>
+</svg>

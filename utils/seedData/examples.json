@@ -1,0 +1,140 @@
+[
+	{
+		"id": "blog",
+		"title": "10 Essential Strategies for Digital Marketing Success",
+		"type": "Blog Post",
+		"description": "Comprehensive guide exploring proven digital marketing strategies to increase your online presence and drive conversions.",
+		"samples": [
+			"SEO optimization techniques that generate 3x more traffic",
+			"Content marketing strategies that build loyal audiences",
+			"Analytics frameworks to measure real ROI"
+		],
+		"content": "# 10 Essential Strategies for Digital Marketing Success\n\nIn today's digital landscape, successful marketing requires a blend of creativity, data analysis, and strategic planning. This comprehensive guide walks you through proven strategies that industry leaders use to dominate their markets.\n\n## 1. SEO Optimization\nDiscover how to optimize your content for search engines and rank higher in Google results.\n\n## 2. Content Marketing\nLearn the art of creating valuable content that attracts and retains customers...",
+		"testimonial": {
+			"quote": "This AI-generated blog post saved me 8 hours of writing time and received over 2,000 views in the first week. The quality was exceptional and required minimal editing.",
+			"author": "Sarah Mitchell",
+			"role": "Marketing Director at TechVenture"
+		},
+		"metadata": {
+			"readTime": "12 minutes",
+			"wordCount": 2500,
+			"topicsCovered": 8,
+			"ctas": 3
+		}
+	},
+	{
+		"id": "social",
+		"title": "Product Launch Social Media Campaign",
+		"type": "Social Media Campaign",
+		"description": "Complete 12-tweet campaign to announce your new product launch with maximum engagement and reach.",
+		"samples": [
+			"Teaser tweet that generated 5K impressions",
+			"Product feature highlights across 4 tweets",
+			"Customer testimonial threads showing real results"
+		],
+		"content": "# Social Media Campaign\n\n## Tweet 1 - Teaser\n🚀 Something big is coming... and we think you're going to love it. Stay tuned for the announcement of the year! #Innovation #TechNews\n\n## Tweet 2 - Problem Statement\nTired of juggling multiple tools? We are too. That's why we built something better. 30% of teams waste 10+ hours weekly on tool switching. We fixed it.\n\n## Tweet 3 - Solution Reveal\nIntroducing [Product Name] - the all-in-one platform that brings your entire workflow into one beautiful dashboard...",
+		"testimonial": {
+			"quote": "The AI created a cohesive social media strategy that felt authentic to our brand voice. Our engagement rate jumped from 2.3% to 7.8% in two weeks!",
+			"author": "James Chen",
+			"role": "Social Media Manager at CreativeHub"
+		},
+		"metadata": {
+			"tweets": 12,
+			"mainPoints": 5,
+			"callsToAction": 2,
+			"estimatedReach": "50K+"
+		}
+	},
+	{
+		"id": "email",
+		"title": "5-Email Product Launch Sequence",
+		"type": "Email Marketing",
+		"description": "Complete email sequence designed to convert interested prospects into paying customers through storytelling and strategic CTAs.",
+		"samples": [
+			"Subject lines with 45%+ open rates",
+			"Psychological triggers that drive clicks",
+			"Proven conversion sequences tested with 10K+ subscribers"
+		],
+		"content": "# Email Sequence\n\n## Email 1: The Hook\nSubject: You've been doing this wrong (and we can help)\n\nBody: Hi [First Name],\n\nYou know that feeling when you're manually doing something repetitive, and you think... there HAS to be a better way?\n\nWell, we just built it.\n\n## Email 2: Social Proof\nSubject: [Name] just saved 6 hours this week\n\nBody: Hi [First Name],\n\nThink saving 6 hours this week is impossible?\n\nIt's not. [Customer Name], a founder at [Company], just did exactly that...",
+		"testimonial": {
+			"quote": "The email sequence the AI generated had a 42% open rate and 12% click-through rate - that's 3x better than our previous campaigns. We'll definitely be using this for every launch.",
+			"author": "Emma Rodriguez",
+			"role": "Email Marketing Specialist at GrowthLabs"
+		},
+		"metadata": {
+			"emailCount": 5,
+			"expectedOpenRate": "40%+",
+			"expectedCTR": "8%+",
+			"conversionSequence": true
+		}
+	},
+	{
+		"id": "ad",
+		"title": "Multi-Platform Ad Copy Suite",
+		"type": "Ad Copy",
+		"description": "8 high-converting ad variations optimized for Google Ads, Facebook, and LinkedIn with split-test recommendations.",
+		"samples": [
+			"Google Ads copy that achieves 8.5% CTR",
+			"Facebook ads with proven 3:1 ROAS",
+			"LinkedIn B2B copy for executive audience"
+		],
+		"content": "# Multi-Platform Ad Copy\n\n## Google Ads Variant 1\nHeadline: AI-Powered Content Generator\nDescription: Create professional content in minutes, not hours. Try free today.\nURL: www.example.com\n\n## Google Ads Variant 2\nHeadline: 10X Your Content Output\nDescription: AI writes. You publish. 80% less time spent on content creation.\n\n## Facebook Ad Variant 1\nCopy: Stuck staring at a blank page? 3,000+ creators just cut their writing time by 75% with our AI. See how >>\n\n## LinkedIn Ad\nCopy: Enterprise teams are saving 200+ hours/month. Your team shouldn't be left behind. [Learn More]",
+		"testimonial": {
+			"quote": "We tested all 8 ad variations and found our winner. The AI-generated copy outperformed our in-house creative by 45%. This tool is now essential to our marketing stack.",
+			"author": "David Park",
+			"role": "Performance Marketing Manager at ScaleUp Inc."
+		},
+		"metadata": {
+			"adVariations": 8,
+			"platforms": ["Google Ads", "Facebook", "LinkedIn"],
+			"ctrBoost": "45%+",
+			"copyAngles": 4
+		}
+	},
+	{
+		"id": "sales",
+		"title": "B2B Sales Email Sequence",
+		"type": "Sales Content",
+		"description": "10-email cold outreach sequence designed to break through noise and generate qualified sales meetings for B2B services.",
+		"samples": [
+			"Opening email with 28% response rate",
+			"Value prop angles that resonate with C-suite",
+			"Objection handling replies that close deals"
+		],
+		"content": "# B2B Sales Sequence\n\n## Email 1: The Opening\nSubject: Quick question - [Company Name]\n\nHi [First Name],\n\nI noticed [Company Name] recently [trigger - specific achievement/news].\n\nIt got me thinking...\n\nMost companies like yours spend $X annually on [solution area] but only see [% of potential value].\n\nWe've helped [# clients] in your industry capture an extra [% or amount] annually through [specific approach].\n\n## Email 2: The Second Touch\nSubject: re: Quick question - [Company Name]\n\n[Personalized follow-up with specific insight]...\n\n## Email 3-10\n[Objection handling, social proof, limited time offers, etc.]",
+		"testimonial": {
+			"quote": "The AI sales sequence generated 35% reply rate and we booked 12 qualified meetings from 40 emails sent. That's our best conversion rate ever. The personalization feels natural while being scalable.",
+			"author": "Michael Torres",
+			"role": "VP of Sales at EnterpriseOne"
+		},
+		"metadata": {
+			"salesEmails": 10,
+			"responseRate": "35%+",
+			"valueProps": 6,
+			"followUpEmails": 4
+		}
+	},
+	{
+		"id": "creative",
+		"title": "Viral Social Content Pack",
+		"type": "Creative Copy",
+		"description": "15+ creative, hook-driven pieces of content designed to stop the scroll and generate maximum engagement across platforms.",
+		"samples": [
+			"Carousel posts with 8.2% engagement rate",
+			"Story-driven captions that spark conversations",
+			"Trending audio integration suggestions for Reels & TikTok"
+		],
+		"content": "# Viral Content Pack\n\n## Content Piece 1: The Contrarian Hook\nCaption: Everyone says you need 10K followers to make money online.\n\nThey're wrong.\n\nHere's how creators with 2K followers are making $10K/month... [Value]\n\n## Content Piece 2: Emotional Story\nCaption: 6 months ago, I was broke.\n\nNo followers. No credibility. No plan.\n\nToday, I: ✅ Made $50K ✅ Helped 200+ people ✅ Built my dream business\n\nWhat changed? One decision... [Story]\n\n## Content Piece 3-15\n[More creative variations with hooks, storytelling, and psychology]\n\nBonus: Trending audio suggestions & posting time recommendations for max reach",
+		"testimonial": {
+			"quote": "The creative pack generated 60% higher engagement than our usual content. Several pieces went micro-viral, and we gained 2,500 new followers in 2 weeks. This AI truly understands what makes content shareable.",
+			"author": "Lisa Wang",
+			"role": "Content Creator & Founder at InfluenceHub"
+		},
+		"metadata": {
+			"contentPieces": 15,
+			"uniqueAngles": 8,
+			"engagementBoost": "60%+",
+			"formats": 6
+		}
+	}
+]

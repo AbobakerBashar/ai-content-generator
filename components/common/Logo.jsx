@@ -9,7 +9,7 @@ const Logo = ({ className }) => {
 				alt="SPARKGEN Logo"
 				width={140}
 				height={40}
-				className="block dark:hidden"
+				className="block dark:hidden w-auto h-auto"
 			/>
 			{/* Dark Mode Logo */}
 			<Image
@@ -17,7 +17,7 @@ const Logo = ({ className }) => {
 				alt="SPARKGEN Logo"
 				width={140}
 				height={40}
-				className="hidden dark:block"
+				className="hidden dark:block w-auto h-auto"
 			/>
 		</div>
 	);

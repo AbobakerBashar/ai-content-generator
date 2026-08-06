@@ -145,7 +145,7 @@ export default function SignIn() {
 		<div className="min-h-screen flex items-center justify-center bg-linear-to-b from-background to-muted/30 px-4 py-16">
 			<Suspense
 				fallback={
-					<Card className="w-full max-w-md mx-auto shadow-2xl h-[550px] flex items-center justify-center">
+					<Card className="w-full max-w-md mx-auto shadow-2xl h-137.5 flex items-center justify-center">
 						<Lock className="h-8 w-8 animate-spin text-muted-foreground" />
 					</Card>
 				}

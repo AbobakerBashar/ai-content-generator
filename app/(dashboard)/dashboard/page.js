@@ -56,10 +56,10 @@ export default async function Dashboard() {
 	return (
 		<div className="min-h-screen bg-linear-to-b from-background to-muted/20">
 			{/* Hero Greeting */}
-			<section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+			<section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-8">
 				<div className="text-center max-w-4xl mx-auto">
-					<h1 className="text-5xl md:text-7xl font-bold mb-6 bg-linear-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
-						Welcome back, {user.email.split("@")[0]}!
+					<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6 bg-linear-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
+						Welcome , {user.email.split("@")[0]}!
 					</h1>
 					<p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
 						Ready to create amazing content? Let&apos;s get started.
@@ -86,7 +86,7 @@ export default async function Dashboard() {
 			</section>
 
 			{/* Stats Grid */}
-			<section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+			<section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-8">
 				<div className="grid md:grid-cols-3 gap-8">
 					<Card className="hover:shadow-xl transition-shadow">
 						<CardHeader>

@@ -5,7 +5,6 @@ export async function POST(request) {
 	try {
 		const body = await request.json();
 		const { email, password, name } = body;
-		console.log(body);
 		const supabase = await createClient();
 
 		if (!email || !password || !name) {
@@ -24,7 +23,6 @@ export async function POST(request) {
 				},
 			},
 		});
-		console.log("Received sign-up request for email:", email);
 		if (error)
 			return NextResponse.json({ error: error.message }, { status: 400 });
 

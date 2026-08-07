@@ -10,8 +10,8 @@ import Output from "./Output";
 import { Loader2 } from "lucide-react";
 
 function GenerateComponent() {
-	const [contentType, setContentType] = useState("blog");
-	const [prompt, setPrompt] = useState("10 tips for better studying");
+	const [contentType, setContentType] = useState("");
+	const [prompt, setPrompt] = useState("");
 	const [generatedContent, setGeneratedContent] = useState("");
 
 	const { generate, isGenerating, error } = useGenerate();
